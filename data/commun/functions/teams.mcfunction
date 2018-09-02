@@ -24,7 +24,7 @@
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=0}] run function commun:teams/levels
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=7..12}] run function commun:teams/payants
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=16..30}] run function commun:teams/staff
-	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=1..6}] run function commun:teams/ucoins
+	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=1..6}] run function commun:teams/aycoins
 	function vianpyro:statistics/players/grades/players
 
 #Team pour les joueurs innactifs (AFK)
