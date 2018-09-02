@@ -18,7 +18,7 @@
 	scoreboard players set @a[scores={gradeTimer=3..}] gradeTimer 0
 	scoreboard players set @a[tag=AFK,scores={gradeTimer=1..}] gradeTimer 0
 
-#get grade
+#Don du grade respectif à tous les joueurs
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=13..15}] run function vianpyro:statistics/players/grades/divers
 	execute as @a[tag=!AFK] run function vianpyro:statistics/players/grades/games
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=0}] run function vianpyro:statistics/players/grades/levels
@@ -27,7 +27,7 @@
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=1..6}] run function vianpyro:statistics/players/grades/ucoins
 	function vianpyro:statistics/players/grades/players
 
-#Team AFK
+#Team pour les joueurs innactifs (AFK)
 	team join AFK @a[tag=AFK,team=!AFK]
 	execute if entity @a[tag=AFK,team=!AFK] run team add AFK
 	team modify AFK color gray
