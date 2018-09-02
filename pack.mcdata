@@ -1,4 +1,6 @@
 {
-  "pack_format":2
-  "description":"datapack contenant tous les ficher utiles au jeux"
+	"pack": {
+		"pack_format": 1,
+		"description": "Datapack relatif au fonctionnement du serveur AyCraft"
+	}
 }
