@@ -11,6 +11,7 @@
 #========================================
 
 
+
 #<gradeTimer> : Permet de ne pas donner le grade à chaque jouer toutes les ticks, et donc de mettre un prefix de jeu
 scoreboard objectives add gradeTimer dummy
 
