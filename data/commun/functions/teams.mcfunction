@@ -19,12 +19,12 @@
 	scoreboard players set @a[tag=AFK,scores={gradeTimer=1..}] gradeTimer 0
 
 #Don du grade respectif à tous les joueurs
-	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=13..15}] run function vianpyro:statistics/players/grades/divers
+	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=13..15}] run function commun:teams/divers
 	execute as @a[tag=!AFK] run function vianpyro:statistics/players/grades/games
-	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=0}] run function vianpyro:statistics/players/grades/levels
-	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=7..12}] run function vianpyro:statistics/players/grades/payants
-	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=16..30}] run function vianpyro:statistics/players/grades/staff
-	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=1..6}] run function vianpyro:statistics/players/grades/ucoins
+	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=0}] run function commun:teams/levels
+	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=7..12}] run function commun:teams/payants
+	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=16..30}] run function commun:teams/staff
+	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=1..6}] run function commun:teams/ucoins
 	function vianpyro:statistics/players/grades/players
 
 #Team pour les joueurs innactifs (AFK)
