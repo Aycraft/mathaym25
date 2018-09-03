@@ -1,0 +1,71 @@
+#========================================
+ # Mode de déclenchement :
+	# Load
+	
+# Fonction du fichier :
+	# Liste et création de toutes les teams globales.
+        
+# Tags utilisés :
+	# ----
+#========================================
+
+
+
+# Staff
+
+team add Fondateur
+team modify aFondateur prefix {"text":"Fondateur ","color":"dark_red","bold":true}
+
+team add Administrateur
+team modify bAdministrateur prefix {"text":"Administrateur ","color":"dark_red"}
+
+team add Moderateur
+team modify aFondateur prefix {"text":"Modérateur ","color":"red"}
+
+team add ModerateurLive
+team modify aFondateur prefix {"text":"Modérateur-Live ","color":"aqua"}
+
+team add Ingenieur
+team modify aFondateur prefix {"text":"Ingénieur ","color":"green"}
+
+team add Architecte
+team modify aFondateur prefix {"text":"Architecte ","color":"blue"}
+
+team add Assistant
+team modify aFondateur prefix {"text":"Assistant ","color":"dark_aqua"}
+
+
+
+# Membres à grades spéciaux
+
+team add Youtubeur
+team modify aFondateur prefix {"text":"Youtubeur ","color":"gold"}
+
+team add Ami
+team modify aFondateur prefix {"text":"Ami ","color":"gold"}
+
+team add Donateur
+team modify aFondateur prefix {"text":"Donateur ","color":"light_purple"}
+
+
+
+# Membres à grades payants (AyCoins ou €)
+
+team add Legende
+team modify aFondateur prefix {"text":"Légende ","color":"dark_purple"}
+
+team add Heros
+team modify aFondateur prefix {"text":"Héros ","color":"dark_green"}
+
+team add VIP+
+team modify aFondateur prefix [{"text":"VIP","color":"yellow"},{"text":"+ ","color":"gold"}]
+
+team add VIP
+team modify aFondateur prefix {"text":"VIP ","color":"yellow"}
+
+
+
+# Grade de base
+
+team add Joueur
+team modify aFondateur prefix {"text":"Joueur ","color":"gray"}
