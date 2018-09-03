@@ -6,7 +6,9 @@
 	#Donne les prefix correspondants au jeu
 
 # Tags utilisés :
-	#-----
+	#atTntrun : Concerne les joueurs présents dans la zone du jeu "Tntrun"
+	#atPvpbox : Concerne les joueurs présents dans la zone du jeu "Pvpbox"
+	#atZombie : Concerne les joueurs présents dans la zone du jeu "Zombie"
 #========================================
 
 
