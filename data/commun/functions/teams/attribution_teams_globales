@@ -13,7 +13,7 @@
 
 
 # Staff
-team join aFondateur @s[scores={commun_team=1}]
+team join aFondateur @s[scores={commun_team=15}]
 team join bAdministrateur @s[scores={commun_team=14}]
 team join cModerateur @s[scores={commun_team=13}]
 team join dModerateurLive @s[scores={commun_team=12}]
