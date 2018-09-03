@@ -11,4 +11,4 @@
 
 
 
-execute as @a[team=] run function commun:teams/attribution_teams_globales
+execute as @a[team=] run function commun:teams/attribution
