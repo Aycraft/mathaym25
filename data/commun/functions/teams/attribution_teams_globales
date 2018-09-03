@@ -4,7 +4,7 @@
 
 # Fonction du fichier :
 	# Attribution des teams globales aux joueurs (pour lui remettre sa team globale si il sort d'une team de mini jeu ou pour update)
-	# Plus le score est haut, plus le joueur est haut dans la hiérarchie
+	# Plus le score commun_team est haut, plus le joueur est haut dans la hiérarchie
 
 # Tags utilisés :
 	# -----
