@@ -20,12 +20,12 @@
 
 #Don du grade respectif à tous les joueurs
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=13..15}] run function commun:teams/divers
-	execute as @a[tag=!AFK] run function vianpyro:statistics/players/grades/games
+	execute as @a[tag=!AFK] run function vianpyro:statistics/players/grades/jeux
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=0}] run function commun:teams/levels
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=7..12}] run function commun:teams/payants
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=16..30}] run function commun:teams/staff
 	execute as @a[tag=!AFK,scores={gradeTimer=2,grade=1..6}] run function commun:teams/aycoins
-	function vianpyro:statistics/players/grades/players
+	function vianpyro:statistics/players/grades/joueurs
 
 #Team pour les joueurs innactifs (AFK)
 	team join AFK @a[tag=AFK,team=!AFK]
