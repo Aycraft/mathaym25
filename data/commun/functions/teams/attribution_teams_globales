@@ -1,0 +1,15 @@
+#========================================
+# Mode de déclenchement :
+	# Tick
+
+# Fonction du fichier :
+	# Attribution des teams globales
+	# Un joueur ne reprend sa team globale que si on lui a enlevé sa team de jeu (ie. il n'a pas de team)
+
+# Tags utilisés :
+	# -----
+#========================================
+
+
+
+# je le fait cet aprem
