@@ -1,0 +1,32 @@
+#========================================
+# Mode de déclenchement :
+	#Event
+
+# Fonction du fichier :
+	#Attribue les grades payants (Aycoins) aux joueurs concernés
+
+# Tags utilisés :
+	#-----
+#========================================
+
+
+
+#Grades UCoins
+	team join Ultra @s[scores={gradeTimer=2,grade=1},team=!Ultra]
+	execute if entity @a[scores={grade=1},team=!Ultra] run team add Ultra
+	team modify Ultra prefix ["",{"text":"Ultra","color":"gold","bold":"true"},{"text":" » ","color":"gray"}]
+	team join Hero @s[scores={gradeTimer=2,grade=2},team=!Hero]
+	execute if entity @a[scores={grade=2},team=!Hero] run team add Hero
+	team modify Hero prefix ["",{"text":"Hero","color":"red","bold":"true"},{"text":" » ","color":"gray"}]
+	team join Titan @s[scores={gradeTimer=2,grade=3},team=!Titan]
+	execute if entity @a[scores={grade=3},team=!Titan] run team add Titan
+	team modify Titan prefix ["",{"text":"Titan","color":"blue","bold":"true"},{"text":" » ","color":"gray"}]
+	team join Imperator @s[scores={gradeTimer=2,grade=4},team=!Imperator]
+	execute if entity @a[scores={grade=4},team=!Imperator] run team add Imperator
+	team modify Imperator prefix ["",{"text":"Imperator","color":"dark_aqua","bold":"true"},{"text":" » ","color":"gray"}]
+	team join Legende @s[scores={gradeTimer=2,grade=5},team=!Legende]
+	execute if entity @a[scores={grade=5},team=!Legende] run team add Legende
+	team modify Legende prefix ["",{"text":"Legende","color":"gold","bold":"true"},{"text":" » ","color":"gray"}]
+	team join Ascendant @s[scores={gradeTimer=2,grade=6},team=!Ascendant]
+	execute if entity @a[scores={grade=6},team=!Ascendant] run team add Ascendant
+	team modify Ascendant prefix ["",{"text":"Ascendant","color":"gold","bold":"true"},{"text":" » ","color":"gray"}]
