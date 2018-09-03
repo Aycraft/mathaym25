@@ -1,3 +1,17 @@
+#========================================
+# Mode de déclenchement :
+    #Event
+ 
+# Fonction du fichier :
+    #Donne les prefix des niveaux aux joueurs sans grade
+ 
+# Tags utilisés :
+    #-----
+#========================================
+
+
+
+
 #Grades levels
   team join l1 @s[scores={grade=0,gradeTimer=2,level=1}]
   execute if entity @a[scores={level=1},team=!l1] run team add l1
