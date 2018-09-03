@@ -15,54 +15,51 @@
 # Staff
 
 team add aFondateur
-team modify aFondateur prefix {"text":"Fondateur ","color":"dark_red","bold":true}
+team modify aFondateur prefix ["",{"text":"Fondateur ","color":"gold","bold":true},{"text":"» ","color":"gray"}]
 
 team add bAdministrateur
-team modify bAdministrateur prefix {"text":"Administrateur ","color":"dark_red"}
+team modify bAdministrateur prefix ["",{"text":"Administrateur ","color":"dark_red","bold":true},{"text":"» ","color":"gray"}]
 
 team add cModerateur
-team modify cModerateur prefix {"text":"Modérateur ","color":"red"}
-
-team add dModerateurLive
-team modify dModerateurLive prefix {"text":"Modérateur-Live ","color":"aqua"}
+team modify cModerateur prefix ["",{"text":"Modérateur ","color":"red","bold":true},{"text":"» ","color":"gray"}]
 
 team add eIngenieur
-team modify eIngenieur prefix {"text":"Ingénieur ","color":"green"}
+team modify eIngenieur prefix ["",{"text":"Ingénieur ","color":"dark_green","bold":true},{"text":"» ","color":"gray"}]
 
 team add fArchitecte
-team modify fArchitecte prefix {"text":"Architecte ","color":"blue"}
+team modify fArchitecte prefix ["",{"text":"Architecte ","color":"dark_aqua","bold":true},{"text":"» ","color":"gray"}]
 
 team add gAssistant
-team modify gAssistant prefix {"text":"Assistant ","color":"dark_aqua"}
+team modify gAssistant prefix ["",{"text":"Assistant ","color":"blue","bold":true},{"text":"» ","color":"gray"}]
 
 
 
 # Membres à grades spéciaux
 
 team add hYoutubeur
-team modify hYoutubeur prefix {"text":"Youtubeur ","color":"gold"}
+team modify hYoutubeur prefix ["",{"text":"Youtubeur ","color":"gold"},{"text":"» ","color":"gray"}]
 
 team add iAmi
-team modify iAmi prefix {"text":"Ami ","color":"gold"}
+team modify iAmi prefix ["",{"text":"Ami ","color":"aqua"},{"text":"» ","color":"gray"}]
 
 team add jDonateur
-team modify jDonateur prefix {"text":"Donateur ","color":"light_purple"}
+team modify jDonateur prefix ["",{"text":"Donateur ","color":"light_purple"},{"text":"» ","color":"gray"}]
 
 
 
 # Membres à grades payants (AyCoins ou €)
 
 team add kLegende
-team modify kLegende prefix {"text":"Légende ","color":"dark_purple"}
+team modify kLegende prefix ["",{"text":"Légende ","color":"dark_blue"},{"text":"» ","color":"gray"},{"text":"» ","color":"gray"}]
 
 team add lHeros
-team modify lHeros prefix {"text":"Héros ","color":"dark_green"}
+team modify lHeros prefix ["",{"text":"Héro ","color":"blue"},{"text":"» ","color":"gray"}]
 
 team add mVIP+
-team modify mVIP+ prefix [{"text":"VIP","color":"yellow"},{"text":"+ ","color":"gold"}]
+team modify mVIP+ prefix [{"text":"VIP","color":"yellow"},{"text":"+ ","color":"red"},{"text":"» ","color":"gray"}]
 
 team add nVIP
-team modify nVIP prefix {"text":"VIP ","color":"yellow"}
+team modify nVIP prefix ["",{"text":"VIP ","color":"yellow"},{"text":"» ","color":"gray"}]
 
 
 
