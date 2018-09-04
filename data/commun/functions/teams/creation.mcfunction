@@ -14,98 +14,72 @@
 # Staff
 
 team add aFondateur
-team modify aFondateur prefix [{"text":"Fondateur","bold":true,"color":"dark_red"},{"text":" » ","color":"gray"}]
+team modify aFondateur prefix [{"text":"Fondateur","bold":true,"color":"gold"},{"text":" » ","color":"gray"}]
 
 team add bAdministrateur
 team modify bAdministrateur prefix [{"text":"Administrateur","color":"dark_red"},{"text":" » ","color":"gray"}]
 
 team add cIngenieurChef
-team modify cIngenieurChef prefix [{"text":"Chef-Ingénieur","bold":true,"color":"dark_green"},{"text":" » ","color":"gray"}]
+team modify cIngenieurChef prefix [{"text":"Chef Ingénieur","bold":true,"color":"dark_green"},{"text":" » ","color":"gray"}]
 
 team add dArchitecteChef
-team modify dArchitecteChef prefix [{"text":"Chef-Architecte","bold":true,"color":"dark_blue"},{"text":" » ","color":"gray"}]
+team modify dArchitecteChef prefix [{"text":"Chef Architecte","bold":true,"color":"dark_blue"},{"text":" » ","color":"gray"}]
 
-team add eModerateurChef
-team modify eModerateurChef prefix [{"text":"Chef-Modérateur","bold":true,"color":"gold"},{"text":" » ","color":"gray"}]
+team add eModerateur
+team modify eModerateur prefix [,{"text":"Modérateur","color":"yellow"},{"text":" » ","color":"gray"}]
 
 team add fIngenieur
 team modify fIngenieur prefix [{"text":"Ingénieur","color":"dark_green"},{"text":" » ","color":"gray"}]
 
 team add gArchitecte
-team modify gArchitecte prefix [{"text":"Architecte","color":"dark_blue"},{"text":" » ","color":"gray"}]
+team modify gArchitecte prefix [{"text":"Architecte","color":"dark_blue"},{"text":" » ","color":"gray"}
 
-team add hModerateur
-team modify hModerateur prefix [,{"text":"Modérateur","color":"gold"},{"text":" » ","color":"gray"}]
+team add hAssistant
+team modify hAssistant prefix [{"text":"Assistant","color":"dark_purple"},{"text":" » ","color":"gray"}]
 
-team add iAssistant
-team modify iAssistant prefix [{"text":"Assistant","color":"dark_purple"},{"text":" » ","color":"gray"}]
+team add iIngenieurTest
+team modify iIngenieurTest prefix [{"text":"Ingénieur Test","italic":true,"color":"dark_green"},{"text":" » ","color":"gray"}]
 
-team add jIngenieurTest
-team modify jIngenieurTest prefix [{"text":"Ingénieur-Test","italic":true,"color":"dark_green"},{"text":" » ","color":"gray"}]
-
-team add kArchitecteTest
-team modify kArchitecteTest prefix [{"text":"Architecte-Test","italic":true,"color":"dark_blue"},{"text":" » ","color":"gray"}]
-
-team add lModerateurTest
-team modify lModerateurTest prefix [,{"text":"Modérateur-Test","italic":true,"color":"gold"},{"text":" » ","color":"gray"}]
+team add jArchitecteTest
+team modify jArchitecteTest prefix [{"text":"Architecte Test","italic":true,"color":"dark_blue"},{"text":" » ","color":"gray"}]
 
 
 
 # Membres à grades spéciaux
 
-team add mYoutubeur
-team modify mYoutubeur prefix [{"text":"Youtubeur","color":"red"},{"text":" » ","color":"gray"}]
+team add kYoutubeur
+team modify kYoutubeur prefix [{"text":"Youtubeur","color":"red"},{"text":" » ","color":"gray"}]
 
-team add nAmi
-team modify nAmi prefix [{"text":"Ami","color":"dark_aqua"},{"text":" » ","color":"gray"}]
+team add lAmi
+team modify lAmi prefix [{"text":"Ami","color":"light_purple"},{"text":" » ","color":"gray"}]
 
 
 
 # Membres à grades payants (AyCoins ou €)
 
-# Ascendant (243'000'000 Aycoins | Niveau 201 + Légende)
-	team add oAscendant
-	team modify oAscendant prefix [{"text":"Ascendant","color":"green"},{"text":" » ","color":"gray"}]
+# Donateur (15€)
+	team add mDonateur
+	team modify mDonateur prefix [{"text":"Donateur","color":"green"},{"text":" » ","color":"gray"}]
 
-# Légende (81'000'000 Aycoins | Niveau 201 + Imperator)
-	team add pLegende
-	team modify pLegende prefix [{"text":"Légende","color":"light_purple"},{"text":" » ","color":"gray"}]
+# Légende (10€ ou 100 000 AC)
+	team add nLegende
+	team modify nLegende prefix [{"text":"Légende","color":"blue"},{"text":" » ","color":"gray"}]
 
-# MVP+ (€€€€€)
-	team add qMVP+
-	team modify qMVP+ prefix [{"text":"MVP","bold":true,"color":"yellow"},{"text":"+","bold":true,"color":"gold"},{"text":" » ","color":"gray"}]
+# Héros (6€ ou 50 000 AC)
+	team add oHeros
+	team modify oHeros prefix [{"text":"Héros","bold":true,"color":"aqua"},{"text":" » ","color":"gray"}]
 
-# Empereur (27'000'000 Aycoins | Niveau 201 + Titan)
-	team add rEmpereur
-	team modify rEmpereur prefix [{"text":"Empereur","bold":true,"color":"blue"},{"text":" » ","color":"gray"}]
+# VIP+ (3€ ou 20 000 AC)
+	team add pVIP+
+	team modify pVIP+ prefix [{"text":"VIP","color":"dark_aqua"},{"text":"+","color":"gold"},{"text":" » ","color":"gray"}]
 
-# MVP (€€€€€)
-	team add sMVP
-	team modify sMVP prefix [{"text":"MVP","bold":true,"color":"yellow"},{"text":" » ","color":"gray"}]
-
-# Titan (9'000'000 Aycoins | Niveau 201 + Héro)
-	team add tTitan
-	team modify tTitan prefix [{"text":"Titan","color":"blue"},{"text":" » ","color":"gray"}]
-
-# VIP+ (€€€€€)
-	team add uVIP+
-	team modify uVIP+ prefix [{"text":"VIP","color":"yellow"},{"text":"+","color":"gold"},{"text":" » ","color":"gray"}]
-
-# Héros (3'000'000 Aycoins | Niveau 201 + Ultra)
-	team add vHeros
-	team modify vHeros prefix [{"text":"Héros","bold":true,"color":"aqua"},{"text":" » ","color":"gray"}]
-
-# VIP (€€€€€)
-	team add wVIP
-	team modify wVIP prefix [{"text":"VIP","color":"yellow"},{"text":" » ","color":"gray"}]
-
-# Ultra (1'000'000 Aycoins | Niveau 201)
-	team add xUltra
-	team modify xUltra prefix [{"text":"Ultra","color":"aqua"},{"text":" » ","color":"gray"}]
+# VIP (1€ ou 10 000 AC)
+	team add qVIP
+	team modify qVIP prefix [{"text":"VIP","color":"dark_aqua"},{"text":" » ","color":"gray"}]
 
 
 
 # Grade de base
 
-team add yJoueur
-team modify yJoueur prefix [{"text":"Joueur » ","color":"gray"}]
+team add rJoueur
+team modify rJoueur prefix [{"text":"Joueur » ","color":"gray"}]
