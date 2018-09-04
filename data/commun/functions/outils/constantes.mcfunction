@@ -1,13 +1,14 @@
 #========================================
 #Mode de déclenchement :
-	#Load
+	# Load
  
 #Fonction du fichier :
-	#Liste des fonctions et des joueurs fictifs
+	# Liste des valeurs de scores utiles pour des calculs.
+	# Chacun peut ajouter ses valeurs, mais merci de respecter l'ordre croissant.
     
  
 # Tags utilisés :
-    #-----
+    # ----
 #========================================
 
 
