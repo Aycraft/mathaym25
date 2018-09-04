@@ -63,35 +63,45 @@ team modify nAmi prefix [{"text":"Ami ","color":"aqua"},{"text":"» ","color":"g
 
 # Membres à grades payants (AyCoins ou €)
 
-team add oAscendant
-team modify oAscendant prefix [{"text":"Ascendant","color":"gold","bold":"true"},{"text":" » ","color":"gray"}]
+# Ascendant (243'000'000 Aycoins | Niveau 201 + Légende)
+	team add oAscendant
+	team modify oAscendant prefix [{"text":"Ascendant","color":"gold","bold":"true"},{"text":" » ","color":"gray"}]
 
-team add pLegende
-team modify pLegende prefix [{"text":"Legende ","color":"gold","bold":"true"},{"text":"» ","color":"gray"}]
+# Légende (81'000'000 Aycoins | Niveau 201 + Imperator)
+	team add pLegende
+	team modify pLegende prefix [{"text":"Légende ","color":"gold","bold":"true"},{"text":"» ","color":"gray"}]
 
-team add qMVP+
-team modify qMVP+ prefix [{"text":"MVP","color":"yellow","bold":true},{"text":"+ ","color":"gold","bold":true},{"text":"» ","color":"gray"},{"text":"» ","color":"gray"}]
+# MVP+ (€€€€€)
+	team add qMVP+
+	team modify qMVP+ prefix [{"text":"MVP","color":"yellow","bold":true},{"text":"+ ","color":"gold","bold":true},{"text":"» ","color":"gray"},{"text":"» ","color":"gray"}]
 
-team add rEmpereur
-team modify rEmpereur prefix [{"text":"Imperator ","color":"dark_aqua","bold":"true"},{"text":"» ","color":"gray"}]
+# Empereur (27'000'000 Aycoins | Niveau 201 + Titan)
+	team add rEmpereur
+	team modify rEmpereur prefix [{"text":"Empereur ","color":"dark_aqua","bold":"true"},{"text":"» ","color":"gray"}]
 
-team add sMVP
-team modify sMVP prefix [{"text":"MVP ","color":"yellow","bold":true},{"text":"» ","color":"gray"}]
+# MVP+ (€€€€€)
+	team add sMVP
+	team modify sMVP prefix [{"text":"MVP ","color":"yellow","bold":true},{"text":"» ","color":"gray"}]
 
-team add tTitan
-team modify tTitan prefix [{"text":"Titan ","color":"blue","bold":"true"},{"text":"» ","color":"gray"}]
+# Titan (9'000'000 Aycoins | Niveau 201 + Héro)
+	team add tTitan
+	team modify tTitan prefix [{"text":"Titan ","color":"blue","bold":"true"},{"text":"» ","color":"gray"}]
 
-team add uVIP+
-team modify uVIP+ prefix [{"text":"VIP","color":"yellow"},{"text":"+ ","color":"gold"},{"text":"» ","color":"gray"}]
+# MVP+ (€€€€€)
+	team add uVIP+
+	team modify uVIP+ prefix [{"text":"VIP","color":"yellow"},{"text":"+ ","color":"gold"},{"text":"» ","color":"gray"}]
 
-team add vHero
-team modify vHero prefix [{"text":"Hero ","color":"red","bold":"true"},{"text":"» ","color":"gray"}]
+# Héros (3'000'000 Aycoins | Niveau 201 + Ultra)
+	team add vHeros
+	team modify vHeros prefix [{"text":"Héros ","color":"red","bold":"true"},{"text":"» ","color":"gray"}]
 
-team add wVIP
-team modify wVIP prefix [{"text":"VIP ","color":"yellow"},{"text":"» ","color":"gray"}]
+# MVP+ (€€€€€)
+	team add wVIP
+	team modify wVIP prefix [{"text":"VIP ","color":"yellow"},{"text":"» ","color":"gray"}]
 
-team add xUltra
-team modify xUltra prefix [{"text":"Ultra ","color":"gold","bold":"true"},{"text":"» ","color":"gray"}]
+# Ultra (1'000'000 Aycoins | Niveau 201)
+	team add xUltra
+	team modify xUltra prefix [{"text":"Ultra ","color":"gold","bold":"true"},{"text":"» ","color":"gray"}]
 
 
 
