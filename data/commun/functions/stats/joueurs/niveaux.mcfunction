@@ -38,11 +38,7 @@
 	execute as @a run scoreboard players operation @s statsJ_xp2up += @s statsJ_xp1
 	execute as @a run scoreboard players operation @s statsJ_xp2up += @s statsJ_xp2
 	execute as @a run scoreboard players operation @s statsJ_xp2up += @s statsJ_xp3
-	
 
-#Pas d'xp orbs
-	kill @e[type=experience_orb]
-	
 
 #Passage au niveau suivant
 	execute as @a[scores={statsJ_level=0..201}] if score @s statsJ_xp >= @s statsJ_xp2up run scoreboard players add @s level 1
