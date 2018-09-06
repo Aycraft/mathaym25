@@ -13,7 +13,7 @@
 
 # Calcul de l'xp pour monter d'un niveau
 
-execute as @a run scoreboard payers set @s stats_xp2up 39
+scoreboard players set @a stats_xp2up 39
 	
 execute as @a run scoreboard players operation @s stats_xp0 = @s stats_level
 execute as @a run scoreboard players operation @s stats_xp0 *= @s stats_level
