@@ -3,7 +3,7 @@
 	# Event
 
 # Fonction du fichier :
-	# Assure la protection aux joueurs qui seront dans des zones qui les feront appeler cette fonction.
+	# Assure la protection aux joueurs qui appellent la fonction.
 
 # Tags utilisés :
 	# ----
