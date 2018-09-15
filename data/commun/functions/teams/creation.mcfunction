@@ -13,45 +13,57 @@
 
 # Staff
 
-team add aFondateur
-team modify aFondateur prefix [{"text":"Fondateur","bold":true,"color":"gold"},{"text":" » ","color":"gray"}]
+# Fondateur
+	team add aFondateur
+	team modify aFondateur prefix [{"text":"Fondateur","bold":true,"color":"gold"},{"text":" » ","color":"gray"}]
 
-team add bAdministrateur
-team modify bAdministrateur prefix [{"text":"Administrateur","color":"dark_red"},{"text":" » ","color":"gray"}]
+# Administrateur
+	team add bAdministrateur
+	team modify bAdministrateur prefix [{"text":"Administrateur","color":"dark_red"},{"text":" » ","color":"gray"}]
 
-team add cIngenieurChef
-team modify cIngenieurChef prefix [{"text":"Chef Ingénieur","bold":true,"color":"dark_green"},{"text":" » ","color":"gray"}]
+# Ingénieur Chef
+	team add cIngenieurChef
+	team modify cIngenieurChef prefix [{"text":"Chef Ingénieur","bold":true,"color":"dark_green"},{"text":" » ","color":"gray"}]
 
-team add dArchitecteChef
-team modify dArchitecteChef prefix [{"text":"Chef Architecte","bold":true,"color":"dark_blue"},{"text":" » ","color":"gray"}]
+# Architecte Chef
+	team add dArchitecteChef
+	team modify dArchitecteChef prefix [{"text":"Chef Architecte","bold":true,"color":"dark_blue"},{"text":" » ","color":"gray"}]
 
-team add eModerateur
-team modify eModerateur prefix [,{"text":"Modérateur","color":"yellow"},{"text":" » ","color":"gray"}]
+# Modérateur
+	team add eModerateur
+	team modify eModerateur prefix [,{"text":"Modérateur","color":"yellow"},{"text":" » ","color":"gray"}]
 
-team add fIngenieur
-team modify fIngenieur prefix [{"text":"Ingénieur","color":"dark_green"},{"text":" » ","color":"gray"}]
+# Ingénieur
+	team add fIngenieur
+	team modify fIngenieur prefix [{"text":"Ingénieur","color":"dark_green"},{"text":" » ","color":"gray"}]
 
-team add gArchitecte
-team modify gArchitecte prefix [{"text":"Architecte","color":"dark_blue"},{"text":" » ","color":"gray"}
+# Architecte
+	team add gArchitecte
+	team modify gArchitecte prefix [{"text":"Architecte","color":"dark_blue"},{"text":" » ","color":"gray"}
 
-team add hAssistant
-team modify hAssistant prefix [{"text":"Assistant","color":"dark_purple"},{"text":" » ","color":"gray"}]
+# Assistant
+	team add hAssistant
+	team modify hAssistant prefix [{"text":"Assistant","color":"dark_purple"},{"text":" » ","color":"gray"}]
 
-team add iIngenieurTest
-team modify iIngenieurTest prefix [{"text":"Ingénieur Test","italic":true,"color":"dark_green"},{"text":" » ","color":"gray"}]
+# Ingénieur Test
+	team add iIngenieurTest
+	team modify iIngenieurTest prefix [{"text":"Ingénieur Test","italic":true,"color":"dark_green"},{"text":" » ","color":"gray"}]
 
-team add jArchitecteTest
-team modify jArchitecteTest prefix [{"text":"Architecte Test","italic":true,"color":"dark_blue"},{"text":" » ","color":"gray"}]
+# Architecte Test
+	team add jArchitecteTest
+	team modify jArchitecteTest prefix [{"text":"Architecte Test","italic":true,"color":"dark_blue"},{"text":" » ","color":"gray"}]
 
 
 
 # Membres à grades spéciaux
 
-team add kYoutubeur
-team modify kYoutubeur prefix [{"text":"Youtubeur","color":"red"},{"text":" » ","color":"gray"}]
+# Youtubeur
+	team add kYoutubeur
+	team modify kYoutubeur prefix [{"text":"Youtubeur","color":"red"},{"text":" » ","color":"gray"}]
 
-team add lAmi
-team modify lAmi prefix [{"text":"Ami","color":"light_purple"},{"text":" » ","color":"gray"}]
+# Ami
+	team add lAmi
+	team modify lAmi prefix [{"text":"Ami","color":"light_purple"},{"text":" » ","color":"gray"}]
 
 
 
