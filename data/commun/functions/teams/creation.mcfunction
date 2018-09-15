@@ -93,8 +93,10 @@
 
 # Grades de base
 
-team add rJoueur
-team modify rJoueur prefix [{"text":"Joueur » ","color":"gray"}]
+# Joueur
+	team add rJoueur
+	team modify rJoueur prefix [{"text":"Joueur » ","color":"gray"}]
 
-team add sNouveau
-team modify sNouveau prefix [{"text":"Nouveau","color":"dark_gray"},{"text":" » ","color":"gray"}]
+# Nouveau
+	team add sNouveau
+	team modify sNouveau prefix [{"text":"Nouveau","color":"dark_gray"},{"text":" » ","color":"gray"}]
