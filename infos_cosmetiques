@@ -1,4 +1,9 @@
 Vitesse améliorée
 	Trigger : /speed
 	Obtention : xxx
-	Description : Donne un effet de speed xx au joueur si activé
+	Description : Donne un effet de speed x au joueur si activé
+
+Saut amélioré
+	Trigger : /jump
+	Obtention : xxx
+	Description : Donne un effet de jumpboost x au joueur si activé
