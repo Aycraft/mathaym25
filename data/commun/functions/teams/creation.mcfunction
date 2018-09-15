@@ -57,7 +57,7 @@ team modify lAmi prefix [{"text":"Ami","color":"light_purple"},{"text":" » ","c
 
 # Membres à grades payants (AyCoins ou €)
 
-# Donateur (15€)
+# Donateur (13€ ou +)
 	team add mDonateur
 	team modify mDonateur prefix [{"text":"Donateur","color":"green"},{"text":" » ","color":"gray"}]
 
