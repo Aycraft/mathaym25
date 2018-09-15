@@ -67,7 +67,7 @@
 
 
 
-# Membres à grades payants (AyCoins ou €)
+# Membres à grades payants (€ ou Ay Coins)
 
 # Donateur (13€ ou +)
 	team add mDonateur
