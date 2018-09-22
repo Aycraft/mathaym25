@@ -9,6 +9,8 @@
 	# ----
 #========================================
 
+# Penser à ajouter miniVIP et Graphiste (ainis que leur couleur)
+
 
 
 # Staff
