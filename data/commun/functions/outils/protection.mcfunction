@@ -27,4 +27,4 @@ execute at @s if block ~ ~-1 ~ air run effect give @s jump_boost 1 255 true
 execute unless entity @s[nbt={Air:300s}] run effect give @s water_breathing 1 255 true
 
 # Protection contre le feu
-execute unless entity @s[nbt={Fire=-20s}] run effect give @s fire_resistance 1 255 true
+execute unless entity @s[nbt={Fire:-20s}] run effect give @s fire_resistance 1 255 true
