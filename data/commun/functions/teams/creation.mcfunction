@@ -3,7 +3,7 @@
 	# Load
 	
 # Fonction du fichier :
-	# Liste et création de toutes les teams globales.
+	# Liste et création de toutes les teams liées aux grades.
         
 # Tags utilisés :
 	# ----
