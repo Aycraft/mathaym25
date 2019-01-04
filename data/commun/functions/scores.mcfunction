@@ -1,5 +1,5 @@
-# commun_Grades : Support des grades
-scoreboard objectives add commun_Grades dummy
+# commun_Grade : Support des grades
+scoreboard objectives add commun_Grade dummy
 
 # commun_Constante : Support des fakeplayers x ayant la valeur x
 scoreboard objectives add commun_Constante dummy
