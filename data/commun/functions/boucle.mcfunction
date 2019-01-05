@@ -1,1 +1,1 @@
-function commun:teams/refresh
+function commun:grades/refresh
