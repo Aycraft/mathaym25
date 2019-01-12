@@ -1,1 +1,0 @@
-function commun:grades/refresh
