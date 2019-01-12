@@ -1,18 +1,21 @@
-#========================================
-#Mode de déclenchement :
-	# Load
-
-#Fonction du fichier :
-	# Liste des valeurs de scores utiles pour des calculs.
-	# Chacun peut ajouter ses valeurs, mais merci de respecter l'ordre croissant.
-
-
-# Tags utilisés :
-    # ----
-#========================================
+# ==================================================================================================
+# This function has to be executed by the "load" function.
+# It countains 1001 integers.
+#
+# Trigger mode: load
+# Trigger(s): load.mcfunction
+#
+# Used tags:
+#
+# ==================================================================================================
 
 
+# Initialization verification
+scoreboard players set serverLoad serverLoad 1
+tellraw @a ["",{"text":"§7§lServeur » §r"},{"text":"Initialisation des entiers réussie","color":"green"}]
 
+# Integers
+scoreboard players set 0 i 0
 scoreboard players set 1 i 1
 scoreboard players set 2 i 2
 scoreboard players set 3 i 3
