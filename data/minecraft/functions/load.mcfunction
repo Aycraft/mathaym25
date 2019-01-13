@@ -11,5 +11,5 @@
 # ==================================================================================================
 
 
-function server:load
+function commun:load
 function spawn:load
