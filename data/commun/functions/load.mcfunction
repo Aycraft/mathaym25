@@ -21,8 +21,8 @@ execute if score serverLoad serverLoad matches 0 run tellraw @a ["",{"text":"§7
 
 # Integers verification
 scoreboard players set serverLoad serverLoad 0
-function server:load/integers
-execute if score serverLoad serverLoad matches 0 run tellraw @a ["",{"text":"§7§lServeur » §r"},{"text":"Initialisation des entiers échouée","color":"red"}]
+function server:load/variables
+execute if score serverLoad serverLoad matches 0 run tellraw @a ["",{"text":"§7§lServeur » §r"},{"text":"Initialisation des variables échouée","color":"red"}]
 
 # Scores verification
 scoreboard players set serverLoad serverLoad 0

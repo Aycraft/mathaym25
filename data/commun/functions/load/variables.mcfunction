@@ -12,7 +12,7 @@
 
 # Initialization verification
 scoreboard players set serverLoad serverLoad 1
-tellraw @a ["",{"text":"§7§lServeur » §r"},{"text":"Initialisation des entiers réussie","color":"green"}]
+tellraw @a ["",{"text":"§7§lServeur » §r"},{"text":"Initialisation des variables réussie","color":"green"}]
 
 # Integers
 scoreboard players set 0 i 0
