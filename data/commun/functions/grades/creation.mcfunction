@@ -1,10 +1,10 @@
 #========================================
  # Mode de déclenchement :
 	# Load
-
+	
 # Fonction du fichier :
 	# Liste et création de toutes les teams liées aux grades.
-
+        
 # Tags utilisés :
 	# ----
 #========================================
@@ -41,7 +41,7 @@
 
 # Architecte
 	team add gArchitecte
-	team modify gArchitecte prefix [{"text":"Architecte","color":"dark_blue"},{"text":" » ","color":"gray"}]
+	team modify gArchitecte prefix [{"text":"Architecte","color":"dark_blue"},{"text":" » ","color":"gray"}
 
 # Assistant
 	team add hAssistant

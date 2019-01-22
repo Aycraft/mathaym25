@@ -1,5 +1,5 @@
 # Datapack
-Système d'Aycraft
+Datapack de AyCraft
 
 Conventions d'écriture : <https://pastebin.com/rPFD5Esm>
 
