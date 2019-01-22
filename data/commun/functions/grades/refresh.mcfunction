@@ -11,4 +11,4 @@
 
 
 
-execute as @a[team=] run function commun:grades/attribution
+execute as @a[team=] run function commun:teams/attribution
